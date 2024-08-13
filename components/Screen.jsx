@@ -11,6 +11,6 @@ const styles = StyleSheet.create({
     flexShrink: 1,
     flexBasis: 0,
     paddingTop: 10,
-    paddingHorizontal: 10,
+    paddingHorizontal: 12,
   },
 });
