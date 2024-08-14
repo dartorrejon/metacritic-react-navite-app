@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "curso-react-native-metacritic-app",
+    "name": "metacritic-app",
     "slug": "curso-react-native-metacritic-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#777777"
     },
     "ios": {
       "supportsTablet": true
@@ -19,13 +19,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ilfantasista10.metacriticapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "54cf2108-1aee-4813-b135-67c8ff465a2e"
+      }
+    },
+    "owner": "ilfantasista10"
   }
 }

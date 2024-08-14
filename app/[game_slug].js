@@ -1,4 +1,4 @@
-import { Link, Stack, useLocalSearchParams } from "expo-router";
+import { Stack, useLocalSearchParams } from "expo-router";
 import {
   ActivityIndicator,
   Image,
@@ -43,7 +43,7 @@ export default function Detail() {
             <View style={styles.slugContainer}>
               <Image
                 source={{ uri: gameInfo.img }}
-                style={{ width: 214, height: 294 }}
+                style={{ width: 214, height: 294, borderRadius: 10 }}
               />
               <Score
                 score={gameInfo.score}

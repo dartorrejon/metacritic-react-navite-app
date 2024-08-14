@@ -1,4 +1,4 @@
-import { Link, Stack, useLocalSearchParams } from "expo-router";
+import { Link, Stack } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text } from "react-native";
 import { HomeIcon } from "../components/Icons";
 import { Screen } from "../components/Screen";
