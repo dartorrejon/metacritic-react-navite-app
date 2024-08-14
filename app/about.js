@@ -30,24 +30,22 @@ export default function About() {
         </Link>
         <Text style={styles.titulo}>Sobre el Proyecto</Text>
         <Text style={styles.texto}>
-          lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem
-          ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem
-          ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+          Esta es una app desarrollada con Expo (Framework recomendado por React
+          Native) 🚀
         </Text>
         <Text style={styles.texto}>
-          lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem
-          ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem
-          ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+          Se basa en una Api piratona 🏴‍☠️ 😄 que se utiliza para poder consultar
+          los datos de los juegos en la pagina de Metacritic.
         </Text>
         <Text style={styles.texto}>
-          lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem
-          ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem
-          ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+          Quiero nombrar al señor Programador y Youtuber Midudev!💻🤓👍❗Gracias
+          a el pude aprender sobre desarrollo para móviles y todo lo demás que
+          hace falta para poder desarrollar este tipo de apps
         </Text>
         <Text style={styles.texto}>
-          lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem
-          ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem
-          ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+          Por ultimo pude realizar el bundle e instalar la apk en mi celular.
+          Funciona perfecto hasta el momento! 😻 Seguire aprendiendo mas sobre
+          desarrolo movil con Expo por que me gusto bastante. FIN!
         </Text>
       </ScrollView>
     </Screen>
